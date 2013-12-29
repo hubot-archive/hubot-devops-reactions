@@ -1,6 +1,6 @@
 # Hubot Devops Reactions
 
-[DevOps reactions](http://devopsreactions.tumblr.com/) gifs for Hubot
+Post a random [DevOps reactions](http://devopsreactions.tumblr.com/) gif.
 
 [![Build Status](https://travis-ci.org/bdossantos/hubot-devops-reactions.png)](https://travis-ci.org/bdossantos/hubot-devops-reactions)
 
