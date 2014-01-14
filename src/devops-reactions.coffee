@@ -27,5 +27,6 @@ module.exports = (robot) ->
           image = $('.item img').attr('src')
 
           if title and image
-            msg.send "#{title} #{image}"
+            msg.send "#{title}"
+            msg.send "#{image}"
         )(window.jQuery)
