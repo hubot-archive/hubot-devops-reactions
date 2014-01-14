@@ -1,7 +1,7 @@
 {
   "name": "hubot-devops-reactions",
   "description": "Post a random devopsreactions.tumblr.com gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Benjamin Dos Santos",
   "license": "MIT",
 
