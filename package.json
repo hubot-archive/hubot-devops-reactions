@@ -13,11 +13,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/bdossantos/hubot-devops-reactions.git"
+    "url": "git@github.com:hubot-scripts/hubot-devops-reactions.git"
   },
 
   "bugs": {
-    "url": "https://github.com/bdossantos/hubot-devops-reactions/issues"
+    "url": "https://github.com/hubot-scripts/hubot-devops-reactions/issues"
   },
 
   "dependencies": {
