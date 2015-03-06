@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "coffee-script": "~1.6",
-    "jsdom": "0.8.8"
+    "jsdom": "~4.0.2"
   },
   "devDependencies": {
     "mocha": "*",
