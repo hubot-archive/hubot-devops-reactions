@@ -14,7 +14,7 @@
 #
 
 jsdom = require('jsdom').jsdom
-jquery = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
+jquery = 'https://code.jquery.com/jquery-3.1.0.min.js'
 url = 'http://devopsreactions.tumblr.com/random'
 devopsRegex = /(devops reactions|!devops)/i
 
