@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   devops reactions
+#   hubot devops reactions
 #
 # Author:
 #
@@ -19,7 +19,7 @@ url = 'http://devopsreactions.tumblr.com/random'
 devopsRegex = /(devops reactions|!devops)/i
 
 module.exports = (robot) ->
-  robot.hear devopsRegex, (msg) ->
+  robot.respond devopsRegex, (msg) ->
     msg.http(url).get() (err, res, body) ->
       location = res.headers.location
       jsdom.env location, [jquery], (errors, window) ->
