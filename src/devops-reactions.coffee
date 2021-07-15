@@ -8,18 +8,18 @@
 #   None
 #
 # Commands:
-#   devops reactions
+#   hubot devops reactions
 #
 # Author:
 #
 
 jsdom = require('jsdom').jsdom
-jquery = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
+jquery = 'https://code.jquery.com/jquery-3.1.0.min.js'
 url = 'http://devopsreactions.tumblr.com/random'
 devopsRegex = /(devops reactions|!devops)/i
 
 module.exports = (robot) ->
-  robot.hear devopsRegex, (msg) ->
+  robot.respond devopsRegex, (msg) ->
     msg.http(url).get() (err, res, body) ->
       location = res.headers.location
       jsdom.env location, [jquery], (errors, window) ->
